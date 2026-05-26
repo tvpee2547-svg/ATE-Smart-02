@@ -55,7 +55,7 @@ export default function LoginPage() {
         <div className="bg-white px-8 py-10 rounded-2xl border border-brand-100 shadow-card">
           
           {error && (
-            <div className="flex items-center gap-2 text-[13px] text-brand-600 bg-brand-50 p-3 rounded-xl mb-6 border border-brand-100 animate-fade-in-up">
+            <div className="min-h-screen bg-gradient-to-tr from-blue-50 via-indigo-50 to-sky-100 flex flex-col justify-center items-center p-4 font-sans selection:bg-blue-200">
               <AlertCircle className="w-4 h-4 flex-shrink-0" />
               <span>{error}</span>
             </div>

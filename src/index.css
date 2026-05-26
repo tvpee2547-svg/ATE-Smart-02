@@ -12,7 +12,7 @@ body {
   font-family: 'Inter', 'Noto Sans Thai', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb; /* Premium off-white minimalist background */
+  background-color: #ffffff; /* Premium off-white minimalist background */
   color: #1a0f0f; /* Premium dark shade for elite readability */
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f8caca; /* brand-200 */
+  background: #ebe9e9; /* brand-200 */
   border-radius: 3px;
 }
 
