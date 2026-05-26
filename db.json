@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "name": "ผู้ดูแลระบบ",
+      "role": "admin",
+      "initials": "AD"
+    },
+    {
+      "id": 2,
+      "username": "somchai",
+      "password": "1234",
+      "name": "สมชาย วงศ์สวัสดิ์",
+      "role": "employee",
+      "initials": "สม"
+    },
+    {
+      "id": 3,
+      "username": "wipa",
+      "password": "1234",
+      "name": "วิภา จันทร์ทอง",
+      "role": "employee",
+      "initials": "วิ"
+    },
+    {
+      "id": 1779190787678,
+      "username": "35378",
+      "password": "2547",
+      "name": "วชิรปิลันธิ์ จงประเสริฐ",
+      "role": "student",
+      "initials": "วช"
+    },
+    {
+      "id": 1779247596809,
+      "username": "35372",
+      "password": "2549",
+      "name": "ธนพัฒน์ ศรีทอง",
+      "role": "student",
+      "initials": "ธน"
+    },
+    {
+      "id": 1779363804310,
+      "username": "99999",
+      "password": "password",
+      "name": "Test Student",
+      "role": "student",
+      "initials": "Te"
+    },
+    {
+      "id": 1779364240725,
+      "username": "55555",
+      "password": "password",
+      "name": "Sompong Rakdee",
+      "role": "student",
+      "initials": "So"
+    },
+    {
+      "id": 1779367275043,
+      "username": "35373",
+      "password": "111",
+      "name": "ธนาธร จันทร์ฉาย",
+      "role": "student",
+      "initials": "ธน"
+    },
+    {
+      "id": 1779367361427,
+      "username": "32271",
+      "password": "1234",
+      "name": "พีชย์กร ศรีมณฑา",
+      "role": "student",
+      "initials": "พี"
+    },
+    {
+      "id": 1779367882662,
+      "username": "88888",
+      "password": "password",
+      "name": "Test Student",
+      "role": "student",
+      "initials": "Te"
+    },
+    {
+      "id": 1779368820919,
+      "username": "11111",
+      "password": "11111",
+      "name": "nstep",
+      "role": "student",
+      "initials": "ns"
+    }
+  ],
+  "requests": [
+    {
+      "id": "MR-2566",
+      "subject": "แตดพัง",
+      "category": "ทั่วไป",
+      "reporter": "nstep",
+      "reporterUsername": "11111",
+      "date": "21 พ.ค. 2569",
+      "status": "รออะไหล่",
+      "details": "แตดพัง",
+      "assignee": "somchai",
+      "imageUrl": null
+    },
+    {
+      "id": "MR-3666",
+      "subject": "ราง ปลักไฟ ไฟ ไม่ติด เหมือนจะเสีย",
+      "category": "ไฟฟ้า",
+      "reporter": "พีชย์กร ศรีมณฑา",
+      "reporterUsername": "32271",
+      "date": "21 พ.ค. 2569",
+      "status": "กำลังดำเนินการ",
+      "details": "อาคาร หลัก ห้องฝ่ายปกครอง",
+      "assignee": "somchai",
+      "imageUrl": "/uploads/1779368525167-89003451.jpeg"
+    },
+    {
+      "id": "MR-4434",
+      "subject": "SuperAircon repair needed",
+      "category": "ไฟฟ้า",
+      "reporter": "Test Student",
+      "reporterUsername": "88888",
+      "date": "21 พ.ค. 2569",
+      "status": "รอดำเนินการ",
+      "details": "Room 301, Engineering Building",
+      "assignee": null,
+      "imageUrl": null
+    },
+    {
+      "id": "MR-8898",
+      "subject": "ไม่รู้",
+      "category": "อาคารสถานที่",
+      "reporter": "ธนาธร จันทร์ฉาย",
+      "reporterUsername": "35373",
+      "date": "21 พ.ค. 2569",
+      "status": "รอดำเนินการ",
+      "details": "อ่าอ่า",
+      "assignee": null,
+      "imageUrl": null
+    },
+    {
+      "id": "MR-4149",
+      "subject": "เก้าอี้พัง",
+      "category": "ทั่วไป",
+      "reporter": "วชิรปิลันธิ์ จงประเสริฐ",
+      "reporterUsername": "35378",
+      "date": "21 พ.ค. 2569",
+      "status": "กำลังดำเนินการ",
+      "details": "408 ชั้นรักเธอ",
+      "assignee": "somchai",
+      "imageUrl": "/uploads/1779366107182-671753955.jpeg"
+    },
+    {
+      "id": "MR-9459",
+      "subject": "Library air-con not cold",
+      "category": "ไฟฟ้า",
+      "reporter": "Sompong Rakdee",
+      "reporterUsername": "55555",
+      "date": "21 พ.ค. 2569",
+      "status": "รอดำเนินการ",
+      "details": "Room 302, 3rd floor. The air-con only blows hot air.",
+      "assignee": null,
+      "imageUrl": null
+    },
+    {
+      "id": "MR-7802",
+      "subject": "Library air-con not cold",
+      "category": "ไฟฟ้า",
+      "reporter": "Test Student",
+      "reporterUsername": "99999",
+      "date": "21 พ.ค. 2569",
+      "status": "รอดำเนินการ",
+      "details": "Room 201, building A. Please check it.",
+      "assignee": null,
+      "imageUrl": null
+    },
+    {
+      "id": "MR-5617",
+      "subject": "เเอร์ไม่เย็น",
+      "category": "เครื่องปรับอากาศ",
+      "reporter": "ธนพัฒน์ ศรีทอง",
+      "reporterUsername": "35372",
+      "date": "20 พ.ค. 2569",
+      "status": "เสร็จสิ้น",
+      "details": "ห้อง 504 ชั้น 4",
+      "assignee": "somchai",
+      "imageUrl": null
+    },
+    {
+      "id": "MR-3856",
+      "subject": "เเอร์ไม่เย็น เเอร์ มีกลิ่น อับ",
+      "category": "เครื่องปรับอากาศ",
+      "reporter": "วชิรปิลันธิ์ จงประเสริฐ",
+      "reporterUsername": "35378",
+      "date": "19 พ.ค. 2569",
+      "status": "กำลังดำเนินการ",
+      "details": "ห้อง 504 ชั้น 4",
+      "assignee": "somchai",
+      "imageUrl": null
+    },
+    {
+      "id": "MR-6627",
+      "subject": "เเอร์ไม่เย็น มีกลิ่นฝุ่น",
+      "category": "เครื่องปรับอากาศ",
+      "reporter": "วชิรปิลันธิ์ จงประเสริฐ",
+      "reporterUsername": "35378",
+      "date": "19 พ.ค. 2569",
+      "status": "รอดำเนินการ",
+      "details": "ห้อง 504 ชั้น 4",
+      "assignee": "somchai",
+      "imageUrl": null
+    }
+  ]
+}
