@@ -290,7 +290,10 @@ function DetailModal({ request, onClose, onUpdateStatus, onAcceptCase, userRole,
             <div>
               <p className="text-[9px] md:text-[10px] font-bold text-brand-400 uppercase tracking-widest mb-2">รูปภาพประกอบ</p>
               <div className="rounded-xl border border-brand-100 overflow-hidden shadow-sm">
-                 <img src={request.imageUrl} alt="รูปภาพปัญหา" className="w-full h-auto max-h-[250px] md:max-h-[300px] object-cover" />
+                 <img src={request.image_url} 
+        alt="รูปภาพปัญหา" 
+        className="w-full h-auto max-h-[250px] md:max-h-[300px] object-cover" 
+      />
               </div>
             </div>
           )}
